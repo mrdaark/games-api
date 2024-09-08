@@ -1,6 +1,6 @@
 .PHONY: build
 build:
-	go build -o ./dist -v ./cmd/main.go
+	go build -o ./dist/ -v ./cmd/main.go
 
 .PHONY: test
 test:
